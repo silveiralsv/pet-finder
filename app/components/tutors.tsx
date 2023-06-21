@@ -23,7 +23,7 @@ const Tutor: React.FC<TutorProps> = ({ tutorName, tutorPhone }) => {
         <a href={`https://wa.me/${5511964343284}`} target="_blank">
           <button
             type="button"
-            className=" flex items-center gap-1 bg-green-600 rounded-sm px-2 text-gray-200 hover:opacity-80 transition-all border-2 border-gray-300"
+            className=" flex items-center gap-1 bg-green-600 rounded-sm px-2 text-gray-200 hover:opacity-80 transition-all border-2 border-gray-300 "
           >
             <AiOutlineWhatsApp />
             WhatsApp

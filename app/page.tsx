@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
-import leviImage from "../../public/levi.png";
-import Tutor from "../components/tutors";
+import leviImage from "../public/levi.png";
+import Tutor from "./components/tutors";
 
 export default function Levi() {
   return (
     <div className="flex items-center justify-center bg-slate-900 w-full h-full relative overflow-hidden px-8">
       <div className="flex flex-col gap-8">
-        <h1 className=" text-5xl text-slate-300">
+        <h1 className=" text-5xl text-slate-300 text-center">
           <b>Obrigado</b> por me encontrar!
         </h1>
 
@@ -33,10 +33,6 @@ export default function Levi() {
           </div>
         </div>
       </div>
-      {/* <FaPaw className=" w-52 h-52 flex absolute bottom-5 right-52 -rotate-45 fill-slate-400" />
-      <FaPaw className=" w-52 h-52 flex absolute bottom-64 right-80 rotate-6 fill-slate-400 " />
-      <FaPaw className=" w-52 h-52 flex absolute top-60 right-72 -rotate-40 fill-slate-400 " />
-      <FaPaw className=" w-52 h-52 flex absolute top-2 right-80 -rotate-45 fill-slate-400" /> */}
     </div>
   );
 }
